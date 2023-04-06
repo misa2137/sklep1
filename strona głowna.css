@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background-image: url(coś.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+
+.head img{
+    float: left;
+}
+.menu{
+
+    width: 100%px;
+    height: 50px;
+    box-shadow: 14px 0px 5px -6px rgba(0,0,0,0.12);
+    background: rgb(25,19,5);
+    background: linear-gradient(0deg, rgb(222, 157, 5) 0%, rgb(230, 238, 6) 100%);
+
+}
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: rgb(0, 255, 34);
+    transition: all 0.25s;
+}
+.nav{
+    float: left;
+    width: 200px;
+    height: 250vh;
+    box-shadow: 10px 0px 5px -5px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 10px 0px 5px -5px rgba(0,0,0,0.37);
+    -moz-box-shadow: 10px 0px 5px -5px rgba(0,0,0,0.37);
+}
+.nav ul li a{
+    margin:40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+.nav ul li{
+    list-style-type: none;
+    line-height: 5;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(82, 82, 82);
+    transition: all 0.25s;
+}
+.karta {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    margin: 30px;
+    
+  }
+  
+.cena {
+    color: grey;
+    font-size: 16px;
+  }
+  
+  .karta button {
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .karta button:hover {
+    opacity: 0.7;
+  }
+  @media only screen and (max-width: 767px) {
+    body {
+    font-size: 14px;
+    }
+    }
+    @media only screen and (min-resolution: 300dpi) {
+        .my-element {
+        background-image: url('high-res-image.jpg');
+        }
+        }
+        @media (max-width: 600px) {
+            body {
+              background-color: lightblue;
+            }
+          }
